@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.riqi.MainActivity">
+
+    <EditText android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:cursorVisible="false"/>
+    <Button android:id="@+id/btnDate"
+        android:text="显示日期选择对话框"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnTime"
+        android:text="显示时间选择对话框"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
